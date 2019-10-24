@@ -10,7 +10,7 @@ describe 'When a learning to build AoH,' do
     expect(assembled_aoh).to eq(result)
   end
 
-  it 'the literal_aoh method returns an AoH made made from a literal with sorted elements' do
+# it 'the literal_aoh method returns an AoH made made from a literal with sorted elements' do
     result = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
        {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
